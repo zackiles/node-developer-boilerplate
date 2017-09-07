@@ -1,7 +1,10 @@
+import yargs from 'yargs';
+import _ from 'lodash';
+import log from './lib/log';
 import pkg from '../package.json';
 
-console.log(pkg.description);
-console.log(`Version: ${pkg.version}`);
-console.log(`Author: ${pkg.author}`);
-console.log(`Licence: ${pkg.license}`);
-console.log(`Repository: ${pkg.homepage}`);
+log.info(pkg.description);
+log.info(`Version: ${pkg.version}`);
+log.info(`Author: ${pkg.author}`);
+log.info(`Licence: ${pkg.license}`);
+log.info(`Repository: ${pkg.homepage}`);
