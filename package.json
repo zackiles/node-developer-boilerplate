@@ -131,6 +131,7 @@
     "mocha": "^3.5.0",
     "mochawesome": "^2.3.0",
     "mochawesome-report-generator": "^2.2.2",
+    "ncu": "^0.2.1",
     "nodemon": "^1.12.0",
     "ntl": "^1.2.0",
     "shx": "^0.2.2",
