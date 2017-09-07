@@ -48,7 +48,7 @@
     "update-dependencies": "npm update && ncu -ua && npm upgrade",
     "serve": "node dist",
     "setenv:dev": "npm config set production false",
-    "setenv:prod": "npm config set production false",
+    "setenv:prod": "npm config set production true",
     "start": "nodemon src/index.js --exec babel-node",
     "tasks": "ntl",
     "pretest": "npm run clean:coverage && npm run clean:reports",
